@@ -15,6 +15,6 @@ INFO: Loaded 19 hooks from com.code_intelligence.jazzer.sanitizers.SqlInjection
 INFO: Instrumented TokenEncryptDecryptFuzzer (took 108 ms, size +26%)
 INFO: libFuzzer ignores flags that start with '--'
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 640303935
-INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x7f6bfd7e7010, 0x7f6bfd7e7210), 
-INFO: Loaded 1 PC tables (512 PCs): 512 [0xcc7f40,0xcc9f40), 
+INFO: Seed: 1069709907
+INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x15c3000, 0x15c3200), 
+INFO: Loaded 1 PC tables (512 PCs): 512 [0x1535e90,0x1537e90), 
