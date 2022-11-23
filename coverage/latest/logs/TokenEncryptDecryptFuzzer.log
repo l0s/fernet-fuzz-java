@@ -3,18 +3,9 @@ INFO: Loaded 111 hooks from com.code_intelligence.jazzer.runtime.TraceCmpHooks
 INFO: Loaded 4 hooks from com.code_intelligence.jazzer.runtime.TraceDivHooks
 INFO: Loaded 2 hooks from com.code_intelligence.jazzer.runtime.TraceIndirHooks
 INFO: Loaded 4 hooks from com.code_intelligence.jazzer.runtime.NativeLibHooks
-INFO: Loaded 8 hooks from com.code_intelligence.jazzer.sanitizers.Deserialization
-INFO: Loaded 5 hooks from com.code_intelligence.jazzer.sanitizers.ExpressionLanguageInjection
-INFO: Loaded 70 hooks from com.code_intelligence.jazzer.sanitizers.LdapInjection
-INFO: Loaded 46 hooks from com.code_intelligence.jazzer.sanitizers.NamingContextLookup
-INFO: Loaded 1 hooks from com.code_intelligence.jazzer.sanitizers.OsCommandInjection
-INFO: Loaded 48 hooks from com.code_intelligence.jazzer.sanitizers.ReflectiveCall
-INFO: Loaded 8 hooks from com.code_intelligence.jazzer.sanitizers.RegexInjection
-INFO: Loaded 16 hooks from com.code_intelligence.jazzer.sanitizers.RegexRoadblocks
-INFO: Loaded 19 hooks from com.code_intelligence.jazzer.sanitizers.SqlInjection
-INFO: Instrumented TokenEncryptDecryptFuzzer (took 108 ms, size +26%)
+INFO: Instrumented TokenEncryptDecryptFuzzer (took 121 ms, size +26%)
 INFO: libFuzzer ignores flags that start with '--'
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 2782459705
-INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x7f2c0176f010, 0x7f2c0176f210), 
-INFO: Loaded 1 PC tables (512 PCs): 512 [0x1478480,0x147a480), 
+INFO: Seed: 3251298455
+INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x7f609281e010, 0x7f609281e210), 
+INFO: Loaded 1 PC tables (512 PCs): 512 [0x1b33940,0x1b35940), 
