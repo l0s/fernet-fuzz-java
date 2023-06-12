@@ -12,9 +12,9 @@ INFO: Loaded 48 hooks from com.code_intelligence.jazzer.sanitizers.ReflectiveCal
 INFO: Loaded 8 hooks from com.code_intelligence.jazzer.sanitizers.RegexInjection
 INFO: Loaded 16 hooks from com.code_intelligence.jazzer.sanitizers.RegexRoadblocks
 INFO: Loaded 19 hooks from com.code_intelligence.jazzer.sanitizers.SqlInjection
-INFO: Instrumented TokenEncryptDecryptFuzzer (took 129 ms, size +26%)
+INFO: Instrumented TokenEncryptDecryptFuzzer (took 50 ms, size +26%)
 INFO: libFuzzer ignores flags that start with '--'
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 315960868
-INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x7fc1f9ad7010, 0x7fc1f9ad7210), 
-INFO: Loaded 1 PC tables (512 PCs): 512 [0x1c24b60,0x1c26b60), 
+INFO: Seed: 803831765
+INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x7f26d5a97010, 0x7f26d5a97210), 
+INFO: Loaded 1 PC tables (512 PCs): 512 [0x8b15e0,0x8b35e0), 
