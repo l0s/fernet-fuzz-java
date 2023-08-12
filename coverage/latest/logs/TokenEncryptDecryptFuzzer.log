@@ -14,15 +14,15 @@ INFO: Loaded 16 hooks from com.code_intelligence.jazzer.sanitizers.RegexRoadbloc
 INFO: Loaded 3 hooks from com.code_intelligence.jazzer.sanitizers.ServerSideRequestForgery
 INFO: Loaded 19 hooks from com.code_intelligence.jazzer.sanitizers.SqlInjection
 INFO: Loaded 6 hooks from com.code_intelligence.jazzer.sanitizers.XPathInjection
-INFO: Instrumented TokenEncryptDecryptFuzzer (took 176 ms, size +26%)
-INFO: Instrumented com.macasaet.fernet.Key (took 61 ms, size +10%)
-INFO: Instrumented com.macasaet.fernet.TokenValidationException (took 1 ms, size +12%)
-INFO: Instrumented com.macasaet.fernet.Constants (took 10 ms, size +7%)
-INFO: Instrumented com.macasaet.fernet.Validator (took 5 ms, size +7%)
-INFO: Instrumented com.macasaet.fernet.PayloadValidationException (took 1 ms, size +12%)
-INFO: found LLVMFuzzerCustomMutator (0x7f7f95aea7d0). Disabling -len_control by default.
+INFO: Instrumented TokenEncryptDecryptFuzzer (took 242 ms, size +26%)
+INFO: Instrumented com.macasaet.fernet.Key (took 107 ms, size +10%)
+INFO: Instrumented com.macasaet.fernet.TokenValidationException (took 17 ms, size +12%)
+INFO: Instrumented com.macasaet.fernet.Constants (took 4 ms, size +7%)
+INFO: Instrumented com.macasaet.fernet.Validator (took 33 ms, size +7%)
+INFO: Instrumented com.macasaet.fernet.PayloadValidationException (took 2 ms, size +12%)
+INFO: found LLVMFuzzerCustomMutator (0x7f564911e7d0). Disabling -len_control by default.
 INFO: libFuzzer ignores flags that start with '--'
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 748320511
-INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x11212f0, 0x11214f0), 
-INFO: Loaded 1 PC tables (512 PCs): 512 [0x101e920,0x1020920), 
+INFO: Seed: 1262976778
+INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x1ea2c50, 0x1ea2e50), 
+INFO: Loaded 1 PC tables (512 PCs): 512 [0x1e149f0,0x1e169f0), 
