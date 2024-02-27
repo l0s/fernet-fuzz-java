@@ -1,8 +1,9 @@
 OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
-INFO: Loaded 152 hooks from com.code_intelligence.jazzer.runtime.TraceCmpHooks
-INFO: Loaded 4 hooks from com.code_intelligence.jazzer.runtime.TraceDivHooks
+INFO: Loaded 261 hooks from com.code_intelligence.jazzer.runtime.TraceCmpHooks
+INFO: Loaded 5 hooks from com.code_intelligence.jazzer.runtime.TraceDivHooks
 INFO: Loaded 2 hooks from com.code_intelligence.jazzer.runtime.TraceIndirHooks
 INFO: Loaded 4 hooks from com.code_intelligence.jazzer.runtime.NativeLibHooks
+INFO: Loaded 2 hooks from com.code_intelligence.jazzer.sanitizers.ClojureLangHooks
 INFO: Loaded 5 hooks from com.code_intelligence.jazzer.sanitizers.Deserialization
 INFO: Loaded 5 hooks from com.code_intelligence.jazzer.sanitizers.ExpressionLanguageInjection
 INFO: Loaded 70 hooks from com.code_intelligence.jazzer.sanitizers.LdapInjection
@@ -11,18 +12,16 @@ INFO: Loaded 1 hooks from com.code_intelligence.jazzer.sanitizers.OsCommandInjec
 INFO: Loaded 48 hooks from com.code_intelligence.jazzer.sanitizers.ReflectiveCall
 INFO: Loaded 8 hooks from com.code_intelligence.jazzer.sanitizers.RegexInjection
 INFO: Loaded 16 hooks from com.code_intelligence.jazzer.sanitizers.RegexRoadblocks
+INFO: Loaded 12 hooks from com.code_intelligence.jazzer.sanitizers.ScriptEngineInjection
 INFO: Loaded 3 hooks from com.code_intelligence.jazzer.sanitizers.ServerSideRequestForgery
 INFO: Loaded 19 hooks from com.code_intelligence.jazzer.sanitizers.SqlInjection
 INFO: Loaded 6 hooks from com.code_intelligence.jazzer.sanitizers.XPathInjection
-INFO: Instrumented TokenEncryptDecryptFuzzer (took 105 ms, size +26%)
-INFO: Instrumented com.macasaet.fernet.Key (took 62 ms, size +10%)
-INFO: Instrumented com.macasaet.fernet.TokenValidationException (took 2 ms, size +12%)
-INFO: Instrumented com.macasaet.fernet.Constants (took 8 ms, size +7%)
-INFO: Instrumented com.macasaet.fernet.Validator (took 16 ms, size +7%)
-INFO: Instrumented com.macasaet.fernet.PayloadValidationException (took 1 ms, size +12%)
-INFO: found LLVMFuzzerCustomMutator (0x7fe3679017d0). Disabling -len_control by default.
+INFO: Instrumented TokenEncryptDecryptFuzzer (took 165 ms, size +26%)
+INFO: using inputs from: /github/workspace/build-out/dummy_corpus_dir_for_TokenEncryptDecryptFuzzer
+INFO: using inputs from: /github/workspace/cifuzz-corpus/TokenEncryptDecryptFuzzer
+INFO: found LLVMFuzzerCustomMutator (0x7f54424db390). Disabling -len_control by default.
 INFO: libFuzzer ignores flags that start with '--'
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 1603100832
-INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x195a6d0, 0x195a8d0), 
-INFO: Loaded 1 PC tables (512 PCs): 512 [0x18c6410,0x18c8410), 
+INFO: Seed: 2109883731
+INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x560245621bf0, 0x560245621df0), 
+INFO: Loaded 1 PC tables (512 PCs): 512 [0x5602455edea0,0x5602455efea0), 
