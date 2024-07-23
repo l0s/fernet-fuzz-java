@@ -19,9 +19,9 @@ INFO: Loaded 6 hooks from com.code_intelligence.jazzer.sanitizers.XPathInjection
 INFO: Instrumented TokenEncryptDecryptFuzzer (took 151 ms, size +26%)
 INFO: using inputs from: /github/workspace/build-out/dummy_corpus_dir_for_TokenEncryptDecryptFuzzer
 INFO: using inputs from: /github/workspace/cifuzz-corpus/TokenEncryptDecryptFuzzer
-INFO: found LLVMFuzzerCustomMutator (0x7fd099e98390). Disabling -len_control by default.
+INFO: found LLVMFuzzerCustomMutator (0x7f3d36e24390). Disabling -len_control by default.
 INFO: libFuzzer ignores flags that start with '--'
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 2228468266
-INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x55efcc648380, 0x55efcc648580), 
-INFO: Loaded 1 PC tables (512 PCs): 512 [0x55efcc5ea110,0x55efcc5ec110), 
+INFO: Seed: 2710805104
+INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x556ecc554b90, 0x556ecc554d90), 
+INFO: Loaded 1 PC tables (512 PCs): 512 [0x556ecc523a90,0x556ecc525a90), 
