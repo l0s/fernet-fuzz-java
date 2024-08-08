@@ -1,2 +1,2 @@
-TokenEncryptDecryptFuzzer
 TokenDecryptFuzzer
+TokenEncryptDecryptFuzzer
