@@ -1,5 +1,6 @@
+OpenJDK 64-Bit Server VM warning: Option CriticalJNINatives was deprecated in version 16.0 and will likely be removed in a future release.
 OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
-INFO: Loaded 261 hooks from com.code_intelligence.jazzer.runtime.TraceCmpHooks
+INFO: Loaded 265 hooks from com.code_intelligence.jazzer.runtime.TraceCmpHooks
 INFO: Loaded 5 hooks from com.code_intelligence.jazzer.runtime.TraceDivHooks
 INFO: Loaded 2 hooks from com.code_intelligence.jazzer.runtime.TraceIndirHooks
 INFO: Loaded 4 hooks from com.code_intelligence.jazzer.runtime.NativeLibHooks
@@ -16,12 +17,12 @@ INFO: Loaded 12 hooks from com.code_intelligence.jazzer.sanitizers.ScriptEngineI
 INFO: Loaded 3 hooks from com.code_intelligence.jazzer.sanitizers.ServerSideRequestForgery
 INFO: Loaded 19 hooks from com.code_intelligence.jazzer.sanitizers.SqlInjection
 INFO: Loaded 6 hooks from com.code_intelligence.jazzer.sanitizers.XPathInjection
-INFO: Instrumented TokenEncryptDecryptFuzzer (took 171 ms, size +26%)
+INFO: Instrumented TokenEncryptDecryptFuzzer (took 74 ms, size +26%)
 INFO: using inputs from: /github/workspace/build-out/dummy_corpus_dir_for_TokenDecryptFuzzer
 INFO: using inputs from: /github/workspace/cifuzz-corpus/TokenDecryptFuzzer
-INFO: found LLVMFuzzerCustomMutator (0x7f714bd70390). Disabling -len_control by default.
+INFO: found LLVMFuzzerCustomMutator (0x7f56cf968a00). Disabling -len_control by default.
 INFO: libFuzzer ignores flags that start with '--'
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 2618432037
-INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x563dbfb9ef30, 0x563dbfb9f130), 
-INFO: Loaded 1 PC tables (512 PCs): 512 [0x563dbfb2f420,0x563dbfb31420), 
+INFO: Seed: 3213490372
+INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x563e5613dd50, 0x563e5613df50), 
+INFO: Loaded 1 PC tables (512 PCs): 512 [0x563e560685e0,0x563e5606a5e0), 
