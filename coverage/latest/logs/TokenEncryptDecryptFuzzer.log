@@ -7,6 +7,7 @@ INFO: Loaded 4 hooks from com.code_intelligence.jazzer.runtime.NativeLibHooks
 INFO: Loaded 2 hooks from com.code_intelligence.jazzer.sanitizers.ClojureLangHooks
 INFO: Loaded 5 hooks from com.code_intelligence.jazzer.sanitizers.Deserialization
 INFO: Loaded 5 hooks from com.code_intelligence.jazzer.sanitizers.ExpressionLanguageInjection
+INFO: Loaded 31 hooks from com.code_intelligence.jazzer.sanitizers.FilePathTraversal
 INFO: Loaded 70 hooks from com.code_intelligence.jazzer.sanitizers.LdapInjection
 INFO: Loaded 46 hooks from com.code_intelligence.jazzer.sanitizers.NamingContextLookup
 INFO: Loaded 1 hooks from com.code_intelligence.jazzer.sanitizers.OsCommandInjection
@@ -16,13 +17,14 @@ INFO: Loaded 16 hooks from com.code_intelligence.jazzer.sanitizers.RegexRoadbloc
 INFO: Loaded 12 hooks from com.code_intelligence.jazzer.sanitizers.ScriptEngineInjection
 INFO: Loaded 3 hooks from com.code_intelligence.jazzer.sanitizers.ServerSideRequestForgery
 INFO: Loaded 19 hooks from com.code_intelligence.jazzer.sanitizers.SqlInjection
+INFO: Loaded 63 hooks from com.code_intelligence.jazzer.sanitizers.UnsafeSanitizer
 INFO: Loaded 6 hooks from com.code_intelligence.jazzer.sanitizers.XPathInjection
-INFO: Instrumented TokenEncryptDecryptFuzzer (took 103 ms, size +26%)
+INFO: Instrumented TokenEncryptDecryptFuzzer (took 100 ms, size +26%)
 INFO: using inputs from: /github/workspace/build-out/dummy_corpus_dir_for_TokenEncryptDecryptFuzzer
 INFO: using inputs from: /github/workspace/cifuzz-corpus/TokenEncryptDecryptFuzzer
-INFO: found LLVMFuzzerCustomMutator (0x7f5d78392a00). Disabling -len_control by default.
+INFO: found LLVMFuzzerCustomMutator (0x7f89dfd6dab0). Disabling -len_control by default.
 INFO: libFuzzer ignores flags that start with '--'
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 2550553491
-INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x56410b272c30, 0x56410b272e30), 
-INFO: Loaded 1 PC tables (512 PCs): 512 [0x56410b25e640,0x56410b260640), 
+INFO: Seed: 3046609247
+INFO: Loaded 1 modules   (512 inline 8-bit counters): 512 [0x560cb9074580, 0x560cb9074780), 
+INFO: Loaded 1 PC tables (512 PCs): 512 [0x560cb904cc50,0x560cb904ec50), 
